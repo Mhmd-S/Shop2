@@ -1,0 +1,9 @@
+{
+    "socks": [
+        {"name": "Overpriced Socks1", "price": "39.99", "img": "/socksImg/socks1.png"},
+        {"name": "Overpriced Socks2", "price": "49.99", "img": "/socksImg/socks2.png"},
+        {"name": "Overpriced Socks3", "price": "29.99", "img": "/socksImg/socks3.png"},
+        {"name": "Overpriced Socks4", "price": "19.99", "img": "/socksImg/socks4.png"},
+        {"name": "Overpriced Socks5", "price": "34.99", "img": "/socksImg/socks5.png"}
+    ]
+}

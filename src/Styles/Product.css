@@ -1,0 +1,86 @@
+.Product-Container {
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7.5px;
+}
+
+.Product-Container img {
+    height: 35vh;
+    aspect-ratio: 1;
+}
+
+.Product-Name-Container {
+    font-weight: 800;
+    padding: 0.4rem;
+}
+
+.Product-Price-Container {
+    font-weight: 700;
+    padding: 0.4rem;
+}
+
+.Product-Input-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Product-Input-Container button {
+    margin-right: 0.3rem;
+    color: white;
+    border-radius: 0.125rem;
+    font-weight: 700;
+    background-color: black;
+    width: 15%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.Product-Input {
+    width: 20%;
+    padding: 0.2rem;
+    border-radius: 3px;
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.Product-Input-Invalid {
+    border: 1px solid red;
+}
+
+.Product-Add-Button {
+    margin-top: 1rem;
+    padding: 0.75rem 1.25rem;
+    color: white;
+    background-color: grey;
+    border: transparent;
+}
+
+.Product-Add-Button:hover {
+    cursor: pointer;
+    background-color: rgb(162, 162, 162);
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .Product-Container {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Product-Container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .Product-Container img {
+        height: 30vh;
+    }
+}
