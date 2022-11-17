@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15f8e751.css",
+    "main.js": "/static/js/main.5aca8af5.js",
+    "static/media/pexels-oliver-sjöström-1103833.jpg": "/static/media/pexels-oliver-sjöström-1103833.b764124c1e92ce1143cf.jpg",
+    "index.html": "/index.html",
+    "main.15f8e751.css.map": "/static/css/main.15f8e751.css.map",
+    "main.5aca8af5.js.map": "/static/js/main.5aca8af5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15f8e751.css",
+    "static/js/main.5aca8af5.js"
+  ]
+}
